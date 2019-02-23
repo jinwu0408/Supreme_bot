@@ -1,10 +1,10 @@
 class users:
-    def __init__(self, name, email, tel, address, card):
-        self.name = name
-        self.email = email
-        self.tel = tel
-        self.address = address
-        self.card = card
+    def __init__(self, profile):
+        self.name = profile.get('name')
+        self.email = profile.get('email')
+        self.tel = profile.get('tel')
+        self.address = profile.get('address')
+        self.card = profile.get('card')
 
     def get_name(self):
         return self.name
