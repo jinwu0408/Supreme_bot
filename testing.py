@@ -1,5 +1,10 @@
 from user import users
 from config import profile_name
+import urllib2
 
-user = users(profile_name)
-print(user.get_name)
+req = 'http://www.voidspace.org.uk'
+response = urllib2.urlopen(req)
+the_page = response.read()
+print (the_page)
+
+
