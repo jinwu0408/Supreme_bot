@@ -9,7 +9,7 @@ import webbrowser
 from selenium import webdriver
 #from selenium.webdriver.common.keys import keys
 from webdriver_manager.chrome import ChromeDriverManager
-driver = webdriver.Chrome(ChromeDriverManager().install()
+driver = webdriver.Chrome(ChromeDriverManager().install())
 
 url = 'https://www.supremenewyork.com'
 now = datetime.datetime.now()
@@ -23,4 +23,4 @@ shop_suffix = shop['href']
 shop_url = url + shop_suffix
 #shop_data = urllib2.urlopen(shop_url)
 
-webbrowser.open(shop_url)
+#webbrowser.open(shop_url)
