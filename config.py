@@ -1,11 +1,11 @@
-from user import users
+from user import User
 
 profile_name = {
         'name': "Testing profile",
 
         'email': "testing@gmail.com",
 
-        ' tel_phone':"(000)000-0000",
+        'tel':"(000)000-0000",
 
         'address':['line1', 'line2', 'zip', 'city', 'state', 'country'],
 

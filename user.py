@@ -1,4 +1,4 @@
-class users:
+class Users:
     def __init__(self, profile):
         self.name = profile.get('name')
         self.email = profile.get('email')
@@ -6,17 +6,22 @@ class users:
         self.address = profile.get('address')
         self.card = profile.get('card')
 
-    def get_name(self):
+    @property
+    def name(self):
         return self.name
 
-    def get_email(self):
+    @property
+    def email(self):
         return self.email
 
-    def get_tel(self):
+    @property
+    def tel(self):
         return self.tel
 
-    def get_address(self):
+    @property
+    def address(self):
         return self.address
-
-    def get_card(self):
+    
+    @property
+    def card(self):
         return self.card
