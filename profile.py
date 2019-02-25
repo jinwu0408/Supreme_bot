@@ -1,16 +1,14 @@
-from user import User
+from user import Users
 
 profile_name = {
-        'name': "Testing profile",
+        'name': "666 666",
 
-        'email': "testing@gmail.com",
+        'email': "666666@gmail.com",
 
-        'tel':"(000)000-0000",
+        'tel':"(666)666-6666",
 
-        'address':['line1', 'line2', 'zip', 'city', 'state', 'country'],
+        'address':['24206 Springwood Dr.', '', '91765', 'Diamond Bar', 'state', 'country'],
 
-        'card': ['card_number','exp.month','exp.year','CVV'],
+        'card': ['6666666666666666','exp.month','exp.year','666'],
 
         }
-
-
