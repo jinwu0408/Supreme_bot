@@ -1,7 +1,7 @@
 from user import Users
 
 profile_name = {
-        'name': "666 666",
+        'name': "sixsix six",
 
         'email': "666666@gmail.com",
 
@@ -9,6 +9,6 @@ profile_name = {
 
         'address':['666 sixsixsix Dr.', '', '91765', 'Diamond Bar', 'state', 'country'],
 
-        'card': ['6666666666666666','exp.month','exp.year','666'],
+        'card': ['6666666666666666','04','2022','666'],
 
         }

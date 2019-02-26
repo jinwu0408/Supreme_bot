@@ -1,7 +1,7 @@
 config = {
-        'keyword':"",
-        'category':"",
-        'color':"",
-        'size':"",
+        'keyword':"Fronts",
+        'category':"t-shirts",
+        'color':"Orange",
+        'size':"Large"
 
 }
